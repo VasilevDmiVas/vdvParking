@@ -9,6 +9,8 @@ class CarType(models.Model):
         ordering = ['name']
 
 
+
+
 class CarBrand(models.Model):
     name = models.CharField(max_length=100)
 

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Добавление авто</title>
+    <style>
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Добавление авто</h1>
+    <form action="/autopark/" method="post">
+        {% csrf_token %}
+        {{ form }}
+        <p></p>
+        <input type="submit" value="Дабавить марку">
+    </form>
+</body>
+</html>

@@ -13,11 +13,11 @@
         {% csrf_token %}
         {{ form }}
         <hr/>
-            {% for CarType in users %}
+            {% for CarBrand in users %}
                 <label>
-                    <input type="checkbox" name="users" value="{{ CarType.id }}"/>
+                    <input type="checkbox" name="users" value="{{ CarBrand.id }}"/>
                 </label>
-                {{ CarType.name }}<br/>
+                {{ CarBrand.name }}<br/>
             {% endfor %}
         <p></p>
         <input type="submit" value="Дабавить марку">

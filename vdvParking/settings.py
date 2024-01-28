@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'vdvParking.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'vdv_test',
+        'NAME': 'parkingVDV',
         'USER': 'postgres',
         'PASSWORD': 'root',
         'HOST': 'localhost',
